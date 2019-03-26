@@ -15,8 +15,8 @@ func main() {
 
 	s.router.HandleFunc("/", home)
 
-	log.Println("Starting server on port :4000")
-	log.Fatal(http.ListenAndServe(":4000", s.router))
+	log.Println("Starting server on port :8080")
+	log.Fatal(http.ListenAndServe(":8080", s.router))
 
 } // .main
 
